@@ -1,0 +1,101 @@
+.eb-garamond-h1{
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+.eb-garamond-h2{
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.eb-garamond-p{
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  font-size: larger;
+}
+.eb-garamond-psmall{
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+}
+.eb-garamond{
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.hero{
+  background-color: #caaacd;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  text-align: center;
+}
+.col{
+  height: 300px;
+}
+.links{
+  color: black;
+  text-decoration: none;
+}
+.links:hover{
+  text-shadow: 1px 1px 5px #ffffff;
+}
+ul{
+  list-style-type: none;
+}
+.bg-purple{
+  background-color: #caaacd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+}
+.bg-pink{
+  background-color: #ffc5c5;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 15px;
+}
+.bg-cream{
+  background-color: #fdf3dd;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+}
+.bg-light-green{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #c7dca7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 15px;
+}
+.bg-dark-green{
+  background-color: #89b9ad;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+}
+@media screen and (max-width: 1000px) {
+  .bg-light-green{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1000px) {
+    .bg-purple{
+      flex-direction: column;
+    }
+}
