@@ -1,0 +1,43 @@
+.eb-garamond-h1{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.eb-garamond-p{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-size: larger;
+}
+.links{
+    color: black;
+    text-decoration: none;
+}
+.links:hover{
+    text-shadow: 1px 1px 5px #ffffff;
+}
+ul{
+    list-style-type: none;
+}
+.bg-cream{
+    background-color: #fdf3dd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.bg-light-green{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #c7dca7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+}
+@media screen and (max-width: 1000px) {
+    .bg-light-green{
+      flex-direction: column;
+    }
+}
